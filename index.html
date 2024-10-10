@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+
+    <!-- google font icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slick slider cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+            <img src="imges/lavender-in-a-vase.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- HEADER START -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/logo_furneta.png"
+                    alt="" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto gap-4 mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">CONTACT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="team.html">TEAM</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                            <li><a class="dropdown-item" href="blog.html">BLOG</a></li>
+                            <li><a class="dropdown-item" href="login.html">LOGIN PAGE</a></li>
+                            <li><a class="dropdown-item" href="portfolio.html">PORTFOLIO</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Search Form -->
+            <div class="search-form">
+
+                <form action="#" method="get">
+                    <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
+                    <button type="submit" class="d-none"></button>
+                </form>
+
+                <!-- Close Icon -->
+                <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
+
+            </div>
+
+            <div class="h-icon d-flex gap-3">
+                <a class="nav-link" id="searchIcon" aria-current="page" href="#">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </a>
+                <a href="cart.html" style="color: black;">
+                    <span class="material-symbols-outlined">
+                        shopping_bag
+                    </span>
+                </a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color: black;">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="#" style="margin-left: 22px;">Username or Email Address</label>
+                    <br>
+                    <input type="text" name="" id=""
+                        style="width: 90%; height: 45px; margin-bottom: 15px; margin-left: 22px;">
+                    <br>
+                    <label for="#" style="margin-left: 22px;">Password</label>
+                    <br>
+                    <input type="password" name="" id=""
+                        style="width: 90%; height: 45px; margin-bottom: 15px; margin-left: 22px;">
+                    <br>
+                    <input type="checkbox" name="check" id="check" style="margin-left: 22px;">
+                    <label for="check">Remember Me</label>
+                    <br>
+                    <a href="#" class="btn btn-warning px-4"
+                        style="border-radius: 0; color: white; margin: 10px 22px;">Log in</a>
+                    <br>
+                    <a href="#" style="margin: 10px 22px; text-decoration: none;">Lost your password?</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="sign-up.html"><button type="button" class="btn btn-primary">Create an account</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER END -->
+
+
+    <!-- HOME SECTION -->
+    <section class="home">
+        <div class="row">
+            <div class="col-12">
+                <!-- slider -->
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="slider-title-wrapper">
+                            <h3 class="slider-title col-md-8 col-lg-6 p-5">
+                                <span class="slider-title-h3">The furniture that defines
+                                    you</span>
+                                <span class="slider-subtitle">Your comfort and aesthetic design suitable for
+                                    you is
+                                    <br> before anything else</span>
+                                <button type="button" class="btn text-white px-4 py-2 fs-4"
+                                    style="border-radius: 0px; background-color: #FD8311;"><i
+                                        class="fa-solid fa-cart-shopping"></i> Shop Now</button>
+                            </h3>
+                        </div>
+                        <img class="img-fluid"
+                            src="http://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/empty-living-room-with-blue-sofa-plants-and-table-on-empty-white-wall-.jpg"
+                            alt="">
+                    </div>
+                    <div class="item">
+                        <div class="slider-title-wrapper">
+                            <h3 class="slider-title col-md-8 col-lg-6 p-5"><span class="slider-title-h3">The furniture
+                                    that defines
+                                    you</span>
+                                <span class="slider-subtitle">Your comfort and aesthetic design suitable for
+                                    you is
+                                    <br> before anything else</span>
+                                <button type="button" class="btn text-white px-4 py-2 fs-4"
+                                    style="border-radius: 0px; background-color: #FD8311;"><i
+                                        class="fa-solid fa-cart-shopping"></i> Shop Now</button>
+                            </h3>
+                        </div>
+                        <img class="img-fluid"
+                            src="http://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/empty-living-room-with-blue-sofa-.jpg"
+                            alt="">
+                    </div>
+                    <div class="item">
+                        <div class="slider-title-wrapper">
+                            <h3 class="slider-title col-md-8 col-lg-6 p-5"><span class="slider-title-h3">The furniture
+                                    that defines
+                                    you</span>
+                                <span class="slider-subtitle">Your comfort and aesthetic design suitable for
+                                    you is
+                                    <br> before anything else</span>
+                                <button type="button" class="btn text-white px-4 py-2 fs-4"
+                                    style="border-radius: 0px; background-color: #FD8311;"><i
+                                        class="fa-solid fa-cart-shopping"></i> Shop Now</button>
+                            </h3>
+                        </div>
+                        <img class="img-fluid"
+                            src="http://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/empty-living-room-with-sofa-and-table-on-empty-white-wall-.jpg"
+                            alt="">
+                    </div>
+                    <div class="item">
+                        <div class="slider-title-wrapper">
+                            <h3 class="slider-title col-md-8 col-lg-6 p-5"><span class="slider-title-h3">The furniture
+                                    that defines
+                                    you</span>
+                                <span class="slider-subtitle">Your comfort and aesthetic design suitable for
+                                    you is
+                                    <br> before anything else</span>
+                                <button type="button" class="btn text-white px-4 py-2 fs-4"
+                                    style="border-radius: 0px; background-color: #FD8311;"><i
+                                        class="fa-solid fa-cart-shopping"></i> Shop Now</button>
+                            </h3>
+                        </div>
+                        <img class="img-fluid"
+                            src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- icon section start -->
+    <section class="icon">
+        <div class="row p-5">
+            <div class="col-sm-6 col-md-6 col-lg-3 d-flex py-3 ">
+                <span class="material-symbols-outlined pt-1 pe-2" style="font-size: 55px; color: #BBCED5;">
+                    local_shipping
+                </span>
+                <div class="i-text">
+                    <h3 class="fw-semibold">Free Shipping</h3>
+                    <p>On all orders above $50</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 d-flex py-3">
+                <span class="material-symbols-outlined pt-1 pe-2" style="font-size: 55px; color: #BBCED5;">
+                    verified_user
+                </span>
+                <div class="i-text">
+                    <h3 class="fw-semibold">30 Days Warranty</h3>
+                    <p>30 days money back guarantee</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 d-flex py-3">
+                <span class="material-symbols-outlined pt-1 pe-2" style="font-size: 55px; color: #BBCED5;">
+                    language
+                </span>
+                <div class="i-text">
+                    <h3 class="fw-semibold">Global Shipping</h3>
+                    <p>Support Worldwide Shipping</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 d-flex py-3">
+                <span class="material-symbols-outlined pt-1 pe-2" style="font-size: 55px; color: #BBCED5;">
+                    lock
+                </span>
+                <div class="i-text">
+                    <h3 class="fw-semibold">100% Secure</h3>
+                    <p>100% Secure Checkout</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- icon section end -->
+
+    <!-- product section start -->
+    <section class="product text-center py-5 px-3" style="background-color: #F8F8FA;">
+        <div class="row">
+            <h1 class="py-5">Most popular product categories</h1>
+        </div>
+
+        <div class="row portfolio position-relative">
+            <!-- <div class="col-5 col-sm-5 col-md-5" style="background-color: #F8F8FA; height: 100vh;"></div>
+            <div class="col-7 col-sm-7 col-md-7" style="background-color: #BBCED5; height: 100vh;"></div> -->
+
+            <!-- Single Portfolio Area -->
+            <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item mb-4">
+                <!-- Portfolio Thumbnail -->
+                <div class="portfolio-thumbnail bg-img"
+                    style="background-image: url(imges/mock-up-poster-frame-on-cabinet-in-interior.jpg);"></div>
+                <!-- Portfolio Hover Text -->
+                <div class="portfolio-hover-overlay">
+                    <a href="imges/mock-up-poster-frame-on-cabinet-in-interior.jpg"
+                        class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
+                        <div class="port-hover-text">
+                            <h3>Cabinet</h3>
+                            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <button type="button" class="btn"
+                                style="background-color: #BBCED5; border-radius: 0; color: black;">View product</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Single Portfolio Area -->
+            <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden mb-4">
+                <!-- Portfolio Thumbnail -->
+                <div class="portfolio-thumbnail bg-img"
+                    style="background-image: url(imges/blue-living-room-with-modern-furniture.jpg);"></div>
+                <!-- Portfolio Hover Text -->
+                <div class="portfolio-hover-overlay">
+                    <a href="imges/blue-living-room-with-modern-furniture.jpg"
+                        class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
+                        <div class="port-hover-text">
+                            <h3>Living-room & Sofa</h3>
+                            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <button type="button" class="btn"
+                                style="background-color: #BBCED5; border-radius: 0; color: black;">View product</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Single Portfolio Area -->
+            <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design mb-4">
+                <!-- Portfolio Thumbnail -->
+                <div class="portfolio-thumbnail bg-img"
+                    style="background-image: url(imges/industrial-hanging-lightbulb.jpg);"></div>
+                <!-- Portfolio Hover Text -->
+                <div class="portfolio-hover-overlay">
+                    <a href="imges/industrial-hanging-lightbulb.jpg"
+                        class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
+                        <div class="port-hover-text">
+                            <h3>Lightning</h3>
+                            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <button type="button" class="btn"
+                                style="background-color: #BBCED5; border-radius: 0; color: black;">View product</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Single Portfolio Area -->
+            <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design mb-4">
+                <!-- Portfolio Thumbnail -->
+                <div class="portfolio-thumbnail bg-img" style="background-image: url(imges/lavender-in-a-vase.jpg);">
+                </div>
+                <!-- Portfolio Hover Text -->
+                <div class="portfolio-hover-overlay">
+                    <a href="imges/lavender-in-a-vase.jpg"
+                        class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
+                        <div class="port-hover-text">
+                            <h3>Accessories</h3>
+                            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <button type="button" class="btn"
+                                style="background-color: #BBCED5; border-radius: 0; color: black;">View product</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Single Portfolio Area -->
+            <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design mb-4">
+                <!-- Portfolio Thumbnail -->
+                <div class="portfolio-thumbnail bg-img"
+                    style="background-image: url(imges/living-room-interior-with-minimalist-furnishing-.jpg);"></div>
+                <!-- Portfolio Hover Text -->
+                <div class="portfolio-hover-overlay">
+                    <a href="imges/living-room-interior-with-minimalist-furnishing-.jpg"
+                        class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
+                        <div class="port-hover-text">
+                            <h3>Chairs</h3>
+                            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <button type="button" class="btn"
+                                style="background-color: #BBCED5; border-radius: 0; color: black;">View product</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Single Portfolio Area -->
+            <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden mb-4">
+                <!-- Portfolio Thumbnail -->
+                <div class="portfolio-thumbnail bg-img"
+                    style="background-image: url(imges/minimalist-photo-of-chair.jpg);"></div>
+                <!-- Portfolio Hover Text -->
+                <div class="portfolio-hover-overlay">
+                    <a href="imges/minimalist-photo-of-chair.jpg"
+                        class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
+                        <div class="port-hover-text">
+                            <h3>Tables</h3>
+                            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <button type="button" class="btn"
+                                style="background-color: #BBCED5; border-radius: 0; color: black;">View product</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Single Portfolio Area -->
+            <div class="col-12 col-lg-6 single_portfolio_item home-design mb-4">
+                <!-- Portfolio Thumbnail -->
+                <div class="portfolio-thumbnail bg-img" style="background-image: url(imges/bed-in-modern-bedroom.jpg);">
+                </div>
+                <!-- Portfolio Hover Text -->
+                <div class="portfolio-hover-overlay">
+                    <a href="imges/bed-in-modern-bedroom.jpg"
+                        class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
+                        <div class="port-hover-text">
+                            <h3>Bed & Mattreses</h3>
+                            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                            <button type="button" class="btn"
+                                style="background-color: #BBCED5; border-radius: 0; color: black;">View product</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <!-- product section start -->
+
+    <!-- discount section start -->
+    <section class="discount my-5 py-5">
+        <div class="row text-white"
+            style="background-image: url(imges/blue-living-room-with-modern-furniture.jpg); background-repeat: no-repeat; background-size: cover;background-position: center; height: 100vh;">
+            <div class="col-12" style="background-color: #313d4d63;">
+                <h1 class="fw-bold col-lg-6 pt-3 pt-sm-5 ps-4 ms-lg-5 mt-lg-5" style="padding-bottom: 15px;">Discount up
+                    to 35% for first purchase only this month.</h1>
+                <p class="col-lg-6 ps-4 ms-lg-5" style="font-size: 18px; padding-bottom: 20px;">Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus leo.</p>
+                <a href="shop.html"></a><button type="button" class="btn text-white px-4 py-2 fs-5"
+                    style="border-radius: 0px; background-color: #FD8311;"><i class="fa-solid fa-cart-shopping"></i>
+                    Shop Now</button>
+            </div>
+        </div>
+    </section>
+    <!-- discount section end -->
+
+    <!-- featured section start -->
+    <section class="featured py-5 px-5" style="background-color: #F8F8FA;">
+
+        <div class="row text-center pb-4">
+            <p style="font-family: 'Vollkorn', serif; color: #FD8311; font-size: 20px;">Featured</p>
+            <h1 class="fw-bold" style="color: #313D4D; font-size: 50px;">Editor's Pickup</h1>
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-15-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">DOUBLE INDUSTRIAL LAMP
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$129.00</s> <span
+                        style="text-decoration: underline; color: #FD8311; font-weight: 600;"> $99.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-7-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">DOUBLE INDUSTRIAL LAMP
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$249.00</s> <span
+                        style="text-decoration: underline; color: #FD8311; font-weight: 600;"> $209.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-6-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">DOUBLE INDUSTRIAL LAMP
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"><span style="color: #FD8311; font-weight: 600;"> $219.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/imng-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">DOUBLE INDUSTRIAL LAMP
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"><span style="color: #FD8311; font-weight: 600;"> $99.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- featured section end -->
+
+    <!-- experience section start -->
+    <section class="experience p-lg-5">
+
+        <div class="row m-4 m-md-5">
+            <div class="col-12 col-md-6 col-lg-6 p-lg-5 img-fluid"
+                style="background-image: url(https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/designer-wooden-furniture-e1648702532257.jpg); background-size: cover; background-position: center;">
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6 ps-md-5">
+                <p style="font-family: 'Vollkorn', serif; color: #FD8311; font-size: 20px;">Who we are</p>
+                <h1 class="fw-bold pb-3" style="color: #313D4D; font-size: 50px;">A creation that suits your
+                    personality.</h1>
+                <p class="pb-3" style="font-size: 18px; color: #6d6d6d;">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus leo.</p>
+
+                <div class="verified d-md-flex pb-3 text-center text-md-start">
+                    <span class="material-symbols-outlined pe-3 p-sm-3" style="color: #FD8311; font-size: 45px;">
+                        verified
+                    </span>
+                    <div class="v-text">
+                        <h3>Trusted furniture store</h3>
+                        <h5 style="font-size: 18px; color: #6d6d6d;">Aliquam facilisi arcu libero nascetur vivamus
+                            tincidunt eget ad conubia turpis donec</h5>
+                    </div>
+                </div>
+                <div class="users d-md-flex pb-4 text-center text-md-start">
+                    <span class="material-symbols-outlined pe-3 p-sm-3" style="color: #FD8311; font-size: 45px;">
+                        group
+                    </span>
+                    <div class="u-text">
+                        <h3>Professional Services</h3>
+                        <h5 style="font-size: 18px; color: #6d6d6d;">Aliquam facilisi arcu libero nascetur vivamus
+                            tincidunt eget ad conubia turpis donec</h5>
+                    </div>
+                </div>
+                <div class="verified-user d-md-flex text-center text-md-start">
+                    <span class="material-symbols-outlined pe-3 p-sm-3" style="color: #FD8311; font-size: 45px;">
+                        verified_user
+                    </span>
+                    <div class="vu-text">
+                        <h3>100% Safe transactions</h3>
+                        <h5 style="font-size: 18px; color: #6d6d6d;">Aliquam facilisi arcu libero nascetur vivamus
+                            tincidunt eget ad conubia turpis donec</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- experience section end -->
+
+    <!-- counter section start -->
+    <section class="counter my-5">
+        <div class="count-area" data-diff="100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="count-area-content">
+                            <div class="count-digit">18</div>
+                            <div class="count-title">Years On The Market</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="count-area-content">
+                            <div class="count-digit">2000</div>
+                            <div class="count-title">Happy Clients</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="count-area-content">
+                            <div class="count-digit">80</div>
+                            <div class="count-title">Delivery Cars</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="count-area-content">
+                            <div class="count-digit">25</div>
+                            <div class="count-title">Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter section end -->
+
+    <!-- look section -->
+    <section class="look text-center my-5 pt-5">
+        <div class="row">
+            <div class="col-12">
+                <!-- slider -->
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="slider-title-wrapper">
+                            <h3 class="slider-title p-5">
+                                <span class="slider-title-h3" style="font-size: 40px;">Change the look of your house,
+                                    change the perspective of others</span>
+                                <span class="slider-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                <button type="button" class="btn text-white px-4 py-2 fs-5"
+                                    style="border-radius: 0px; background-color: #FD8311;">Discover more</button>
+                            </h3>
+                        </div>
+                        <img class="img-fluid" src="imges/blue-living-room-with-modern-furniture.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <div class="slider-title-wrapper">
+                            <h3 class="slider-title p-5">
+                                <span class="slider-title-h3" style="font-size: 40px;">Change the look of your house,
+                                    change the perspective of others</span>
+                                <span class="slider-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                <button type="button" class="btn text-white px-4 py-2 fs-5"
+                                    style="border-radius: 0px; background-color: #FD8311;">Discover more</button>
+                            </h3>
+                        </div>
+                        <img class="img-fluid" src="imges/scandi-room-with-vintage-furniture.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <div class="slider-title-wrapper">
+                            <h3 class="slider-title p-5">
+                                <span class="slider-title-h3" style="font-size: 40px;">Change the look of your house,
+                                    change the perspective of others</span>
+                                <span class="slider-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                <button type="button" class="btn text-white px-4 py-2 fs-5"
+                                    style="border-radius: 0px; background-color: #FD8311;">Discover more</button>
+                            </h3>
+                        </div>
+                        <img class="img-fluid" src="imges/summer-with-patio-with-wicker-furniture-and-lights.jpg"
+                            alt="">
+                    </div>
+                    <div class="item">
+                        <div class="slider-title-wrapper">
+                            <h3 class="slider-title p-5">
+                                <span class="slider-title-h3" style="font-size: 40px;">Change the look of your house,
+                                    change the perspective of others</span>
+                                <span class="slider-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                <button type="button" class="btn text-white px-4 py-2 fs-5"
+                                    style="border-radius: 0px; background-color: #FD8311;">Discover more</button>
+                            </h3>
+                        </div>
+                        <img class="img-fluid" src="imges/modern-interior-room-with-furniture-.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- latest-product -->
+    <section class="Latest-Product py-5 px-5" style="background-color: #F8F8FA;">
+
+        <div class="l-heading text-center">
+            <p style="font-family: 'Vollkorn', serif; color: #FD8311; font-size: 20px;">Latest Product</p>
+            <h1 class="fw-bold pb-3" style="color: #313D4D; font-size: 50px;">New Arrival</h1>
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-17-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">SINGLE SIZE MINIMALIST
+                    BED
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$599.00</s> <span
+                        style="text-decoration: underline; color: #FD8311; font-weight: 600;"> $499.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-16-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">KING SIZE MINIMALIST BED
+                    – GREY
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$999.00</s> <span
+                        style="text-decoration: underline; color: #FD8311; font-weight: 600;"> $799.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-15-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">DOUBLE INDUSTRIAL LAMP
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$129.00</s> <span
+                        style="color: #FD8311; font-weight: 600;"> $99.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-14-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">WOODEN CEILING LAMP
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$99.00</s> <span style="color: #FD8311; font-weight: 600;">
+                        $87.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-13-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">BLACK LIGHT GREEN
+                    CEILING LAMP
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$599.00</s> <span
+                        style="text-decoration: underline; color: #FD8311; font-weight: 600;"> $499.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-12-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">SINGLE INDUSTRIAL LAMP
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$999.00</s> <span
+                        style="text-decoration: underline; color: #FD8311; font-weight: 600;"> $799.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-11-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">FULL GLASS CABINET
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"><span style="color: #FD8311; font-weight: 600;"> $749.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <a href="#"><img class="img-fluid"
+                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img-10-300x400.jpg"
+                        alt=""></a>
+                <h6 class="fw-semibold pb-1 pt-3" style="letter-spacing: 3px; font-size: 14px;">WOODEN KITCHEN CABINET
+                </h6>
+                <div class="iiiiiii" style="color: #b6c1c5;">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="py-2"> <s style="color: #838485;">$799.00</s> <span
+                        style="color: #FD8311; font-weight: 600;"> $709.00</span></h5>
+                <button type="button" class="btn text-white px-4 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311;">Add to cart</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home shopping -->
+    <section class="home-shopping text-center">
+        <div class="row text-white"
+            style="background-image: url(imges/empty-living-room-interior.jpg); background-repeat: no-repeat; background-size: cover;background-position: center; height: 100vh;">
+            <div class="col-12 text-center" style="background-color: #313d4d63;">
+                <p class=" pt-3 pt-sm-5 mt-lg-5" style="font-family: 'Vollkorn', serif; font-size: 20px;">Home Shopping
+                </p>
+                <h1 class="fw-bold pt-3" style="padding-bottom: 15px;">Shop home supplies from home? Just Call us</h1>
+                <p class="" style="font-size: 18px; padding-bottom: 20px;">Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus leo.</p>
+                <button type="button" class="btn text-white px-4 fs-5"
+                    style="border-radius: 0px; background-color: #FD8311;">
+                    <span class="material-symbols-outlined" style="font-size: 18px;">
+                        mark_chat_unread
+                    </span> Contact Us</button>
+            </div>
+        </div>
+
+        <div class="row text-center p-5 position-relative"
+            style="background-color:#F8F8FA; display: flex; justify-content: center;">
+            <div class="col-12 col-md-3 p-4 m-4"
+                style="background-color: white; padding: 35px; margin: 5px; box-shadow: 5px 5px 10px lightgray;">
+                <span class="material-symbols-outlined fs-1" style="color: #838485;">
+                    post_add
+                </span>
+                <h2>Knowledge Base</h2>
+                <p style="color: #6d6d6d;">Tempor nibh ornare ipsum eu dolor dictumst inceptos venenatis dapibus
+                    ultricies mattis</p>
+                <button type="button" class="btn text-white px-4 fs-5 w-100"
+                    style="border-radius: 0px; background-color: #FD8311;">
+                    Learn more</button>
+            </div>
+            <div class="col-12 col-md-3 p-4 m-4"
+                style="background-color: white; padding: 35px; margin: 5px; box-shadow: 5px 5px 10px lightgray;">
+                <span class="material-symbols-outlined fs-1" style="color: #838485;">
+                    support_agent
+                </span>
+                <h2>Sales Support</h2>
+                <p style="color: #6d6d6d;">Tempor nibh ornare ipsum eu dolor dictumst inceptos venenatis dapibus
+                    ultricies mattis</p>
+                <button type="button" class="btn text-white px-4 fs-5 w-100"
+                    style="border-radius: 0px; background-color: #FD8311;">
+                    Contact Sales</button>
+            </div>
+            <div class="col-12 col-md-3 p-4 m-4"
+                style="background-color: white; padding: 35px; margin: 5px; box-shadow: 5px 5px 10px lightgray;">
+                <span class="material-symbols-outlined fs-1" style="color: #838485;">
+                    groups
+                </span>
+                <h2>Community</h2>
+                <p style="color: #6d6d6d;">Tempor nibh ornare ipsum eu dolor dictumst inceptos venenatis dapibus
+                    ultricies mattis</p>
+                <button type="button" class="btn text-white px-4 fs-5 w-100"
+                    style="border-radius: 0px; background-color: #FD8311;">
+                    Join community</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="testimonial p-5" style="background-color: #F8F8FA;">
+        <div class="row text-center">
+            <p style="font-family: 'Vollkorn', serif; color: #FD8311; font-size: 20px;">Testimonial</p>
+            <h1 class="fw-bold pb-3" style="color: #313D4D; font-size: 50px;">What our clients are saying.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                pulvinar dapibus leo.</p>
+        </div>
+
+        <div class="row">
+            <div class="slick-carousel">
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide-content">
+                        <div class="item">
+                            <div class="f-item d-flex">
+                                <div class="img-part">
+                                    <img class="rounded-circle img-fluid"
+                                        src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/img__0002_Layer-6.jpg"
+                                        alt="" height="50px" width="50px">
+                                </div>
+                                <div class="img-text">
+                                    <h5>Kate West</h5>
+                                    <div class="i-icon" style="color: #FD8311; font-size: 12px;">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p style="font-family: 'Vollkorn', serif; font-size: 20px;">Papua</p>
+                                </div>
+                            </div>
+                            <h4>Dis vitae proin sit fames imperdiet integer magna odio nunc tellus non. Adipiscing lacus
+                                per
+                                litora sed semper ante vivamus. Quis turpis aenean gravida magna suspendisse.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- brand section -->
+    <section class="brand p-5 my-5" style="background-color: #F8F8FA;">
+
+        <div class="row text-center pb-5">
+            <h1 class="fw-bold pb-3" style="color: #313D4D; font-size: 50px;">Popular brand</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                pulvinar dapibus leo.</p>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-12 col-sm-6 col-lg-3 bg-white p-5">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/velocity-9.png"
+                    alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bg-white p-5">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/kanba.png" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bg-white p-5">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/ideaa.png" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bg-white p-5">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/fox-hub.png" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bg-white p-5">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/earth-2.0.png" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bg-white p-5">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/code-lab.png" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bg-white p-5">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/circle.png" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bg-white p-5">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/amara.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- custom section -->
+    <section class="custom d-md-flex p-5 mt-5">
+        <img class="img-fluid"
+            src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/modern_chair.png" alt="">
+        <div class="custom-design p-5">
+            <h1 class="fw-bold pb-3" style="color: #313D4D; font-size: 50px;">Need custom design?</h1>
+            <p class="fs-5 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                ullamcorper mattis,
+                pulvinar dapibus leo.</p>
+            <button type="button" class="btn text-white px-4 py-2 fs-6"
+                style="border-radius: 0px; background-color: #FD8311;">
+                Consultations Now</button>
+        </div>
+    </section>
+
+    <!-- footer start -->
+    <footer class="text-white p-2 p-sm-5" style="background-color: #313D4D;">
+
+        <div class="foot-in d-md-flex  justify-content-evenly">
+
+            <div class="newsletter m-3 text-center text-md-start">
+                <h2 class="fw-bold py-2">Newsletter</h2>
+                <p>Subscribe to our newsletter for new products, trends and offers.</p>
+                <input class="my-2 p-2" type="email" name="" id="" placeholder="Email"
+                    style="font-family: 'Vollkorn', serif; width: 100%; padding: 12px 0px; border: none;">
+                <br>
+                <button type="button" class="btn text-white px-5 py-2 fs-6"
+                    style="border-radius: 0px; background-color: #FD8311; width: 100%">
+                    <i class="fa-regular fa-envelope"></i> Sign up</button>
+            </div>
+
+            <div class="categories p-2">
+                <ul>
+                    <h2 class="py-2">Categories</h2>
+                    <li><a href="#">Furniture</a></li>
+                    <li><a href="#">Workspace</a></li>
+                    <li><a href="#">Kitchen & Dinning</a></li>
+                    <li><a href="#">Bedroom</a></li>
+                    <li><a href="#">Home Decorations</a></li>
+                </ul>
+            </div>
+
+            <div class="Support p-2">
+                <ul>
+                    <h2 class="py-2">Support</h2>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="Locations p-2">
+                <ul style="width: 340px;">
+                    <h2 class="py-2">Locations</h2>
+                    <li><a href="#">Jln. Cempaka Wangi No 22, Jakarta - Indonesia</a></li>
+                    <li><a href="#"><i class="fa-regular fa-envelope" style="color: #FD8311; padding-right: 5px;"></i>
+                            support@yourdomain.tld</a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone-volume" style="color: #FD8311; padding-right: 5px;"></i>
+                            +6221.2002.2012</a></li>
+                    <ul class="d-flex">
+                        <li style="background-color: #BBCED5;"><a href="#" style="color: #313D4D;"><i
+                                    class="fa-brands fa-facebook-f p-2"></i></a></li>
+                        <li style="background-color: #BBCED5;"><a href="#" style="color: #313D4D;"><i
+                                    class="fa-brands fa-instagram p-2"></i></a></li>
+                        <li style="background-color: #BBCED5;"><a href="#" style="color: #313D4D;"><i
+                                    class="fa-brands fa-twitter p-2"></i></a></li>
+                        <li style="background-color: #BBCED5;"><a href="#" style="color: #313D4D;"><i
+                                    class="fa-brands fa-youtube p-2"></i></a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright d-md-flex justify-content-between pt-3" style="border-top: 1px solid gray;">
+
+            <p> Copyright © 2022 Furneta, All rights reserved. Powered by MoxCreative.</p>
+            <div class="foot-img">
+                <img class="img-fluid"
+                    src="https://kits.moxcreative.com/furneta/wp-content/uploads/sites/10/2022/03/payment.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Back to top button -->
+    <a id="button"></a>
+
+    <!-- jquery cdn -->
+    <script src="js/jQuery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- slick slider -->
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+
+    <script>
+        
+        // Loader
+        $(window).on('load', function () {
+            $('.preloader').fadeOut('slow', function () {
+                $(this).remove();
+            });
+        });
+
+        // Search Active Code
+        $('#searchIcon').on('click', function () {
+            $('.search-form').toggleClass('active');
+        });
+        $('.closeIcon').on('click', function () {
+            $('.search-form').removeClass('active');
+        });
+
+        // backtotop
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 200) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+        // slider
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            animateOut: 'fadeOut',
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [4000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+
+        // Masonary Gallery Active Code
+        // if ($.fn.imagesLoaded) {
+        //     $('.portfolio').imagesLoaded(function () {
+        //         // filter items on button click
+        //         $('.portfolio-filter').on('click', 'button', function () {
+        //             var filterValue = $(this).attr('data-filter');
+        //             $grid.isotope({
+        //                 filter: filterValue
+        //             });
+        //         });
+        //         // init Isotope
+        //         var $grid = $('.alazea-portfolio').isotope({
+        //             itemSelector: '.single_portfolio_item',
+        //             percentPosition: true,
+        //             masonry: {
+        //                 columnWidth: '.single_portfolio_item'
+        //             }
+        //         });
+        //     });
+        // }
+
+        // magnificPopup Active Code
+        if ($.fn.magnificPopup) {
+            $('.portfolio-img, .product-img').magnificPopup({
+                gallery: {
+                    enabled: true
+                },
+                type: 'image'
+            });
+            //   $('.video-icon').magnificPopup({
+            //     type: 'iframe'
+            //   });
+        }
+
+        function visible(partial) {
+            var $t = partial,
+                $w = jQuery(window),
+                viewTop = $w.scrollTop(),
+                viewBottom = viewTop + $w.height(),
+                _top = $t.offset().top,
+                _bottom = _top + $t.height(),
+                compareTop = partial === true ? _bottom : _top,
+                compareBottom = partial === true ? _top : _bottom;
+
+            return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
+
+        }
+
+        $(window).scroll(function () {
+
+            if (visible($('.count-digit'))) {
+                if ($('.count-digit').hasClass('counter-loaded')) return;
+                $('.count-digit').addClass('counter-loaded');
+
+                $('.count-digit').each(function () {
+                    var $this = $(this);
+                    jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                        duration: 5000,
+                        easing: 'swing',
+                        step: function () {
+                            $this.text(Math.ceil(this.Counter));
+                        }
+                    });
+                });
+            }
+        })
+
+        // slick slider
+        $().ready(function () {
+            $('.slick-carousel').slick({
+                arrows: false,
+                centerPadding: "0px",
+                dots: false,
+                slidesToShow: 1,
+                infinite: false
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

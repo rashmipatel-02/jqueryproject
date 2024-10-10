@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+
+    <!-- google font icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slick slider cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+            <img src="imges/lavender-in-a-vase.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="container-fluid quote py-5" data-parallax="scroll" data-image-src=""
+        style="background-image: url(imges/living-room-interior-with-minimalist-furnishing-.jpg); background-position: center; background-size: cover;">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="bg-white rounded p-4 p-sm-5">
+                        <h5 class="text-center">Welcome</h5>
+                        <h1 class="display-5 text-center mb-5">Sign up to your account</h1>
+                        <div class="row g-3">
+                            <div class="col-sm-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control bg-light border-1" id="gname"
+                                        placeholder="Gurdian Name">
+                                    <label for="gname">Username
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control bg-light border-1" id="gmail"
+                                        placeholder="Gurdian Email">
+                                    <label for="gmail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control bg-light border-1" id="gmail"
+                                        placeholder="Gurdian Email">
+                                    <label for="gmail">Create a Password</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control bg-light border-1" id="gmail"
+                                        placeholder="Gurdian Email">
+                                    <label for="gmail">Re-enter a Password</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <input type="checkbox" id="check">
+                                <label for="check">Remember me</label>
+                            </div>
+
+                            <div class="col-12 text-center">
+                                <button class="btn py-3 px-4" type="submit"
+                                    style="background-color:#FD8311; color: #ffff;">Create</button>
+                                <a href="index.html"><button class="btn py-3 px-4" type="submit"
+                                    style="background-color:#FD8311; color: #ffff;">Back</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- jquery cdn -->
+     <script src="js/jQuery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        // Loader
+        $(window).on('load', function () {
+            $('.preloader').fadeOut('slow', function () {
+                $(this).remove();
+            });
+        });
+    </script>
+
+</body>
+
+</html>
